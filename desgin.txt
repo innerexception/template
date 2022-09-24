@@ -1,0 +1,17 @@
+4. Main menu, map list, completed maps unlock in sequence, show planned maps as well
+5. Additional Maps, in sequence
+6. Itch Release
+6.5 More maps / special buildings
+7. New buildings / Donations feature (Any player can donate to the pool (minimum 50c), and players may request funds once per game from the pool)
+8. Steam Release
+
+
+
+9. Second game - Regrowth - after demolition, use the resulting map to rebuild the city in a sustainable manner (carcassone):
+    -Place farmland to raise food number * houses
+    -Place houses to decrease homelessness / increase farm productivity
+    -Place Churches to raise morale 
+    -Ports provide mcguffins
+    -Warehouse to increase storage
+    
+    

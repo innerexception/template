@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Body';
+  src: url('../assets/Hourglass_Bold.ttf')  format('truetype')
+}
+@font-face {
+  font-family: 'Titles';
+  src: url('../assets/WWareTypeB.ttf')  format('truetype')
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+    height:100%;
+}
+
+body {
+  font-family: 'Body';
+  font-size: 16px;
+  line-height: unset;
+  user-select: none;
+  image-rendering: pixelated;
+  -webkit-font-smoothing: none;
+  background: black;
+  color:#fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin:0;
+  /* text-shadow: 2px 2px 0px black; */
+}
+
+h4{
+  font-weight: 100;
+}
+
+h1,h2,h3{
+  font-family: "Titles";
+}
+
+hr{
+  border-color:  silver;
+}
+
+input {
+  background: black;
+  border: 4px double #55FF55;
+  padding: 0.2em;
+  width: 100%;
+  color:#55FF55;
+}
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.rc-tooltip {
+  position: absolute;
+  z-index: 1070;
+  display: block;
+  visibility: visible;
+  line-height: 1.5;
+}
+.rc-tooltip-hidden {
+  display: none;
+}
+.rc-tooltip-inner{
+  min-height: 0;
+  max-width: 20em;
+  background: #8b93af;
+  color:#55FF55;
+  border: 4px outset black;
+  padding: 5px;
+}

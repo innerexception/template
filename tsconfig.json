@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "outDir": "./public/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "inlineSources": true,
+        "sourceRoot": "/",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "strictNullChecks": false,
+        "allowSyntheticDefaultImports": false,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "noUnusedParameters": false,
+        "noUnusedLocals": false,
+        "target": "es5",
+        "lib": [
+            "dom",
+            "es7"
+        ]
+    },
+    "include": [
+        "./**/*",
+        "types.d.ts",
+        "../geode-common/schemas/types.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "./public",
+        "./functions"
+    ]
+}

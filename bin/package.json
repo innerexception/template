@@ -1,0 +1,56 @@
+{
+  "name": "degrowth",
+  "productName": "Degrowth",
+  "version": "0.0.1",
+  "description": "Civ Removal Game",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start --inspect-electron",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
+  },
+  "keywords": [],
+  "author": {
+    "name": "jbaker",
+    "email": "jbakerdev@gmail.com"
+  },
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "packagerConfig": {
+        "icon": "src/icon.icns"
+      },
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "setupExe": "Degrowth.exe",
+            "setupIcon": "src/icon.ico",
+            "icon": "src/icon.ico"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-dmg",
+          "config": {
+            "format": "ULFO",
+            "icon": "src/icon.icns"
+          }
+        }
+      ]
+    }
+  },
+  "dependencies": {
+   "electron-squirrel-startup": "^1.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.63",
+    "@electron-forge/maker-dmg": "^6.0.0-beta.63",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.63",
+    "electron": "^18.1.0",
+    "ts-loader": "^5.4.5",
+    "typescript": "^4.6.2",
+    "@types/node": "^11.15.54"
+  }
+}
