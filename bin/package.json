@@ -41,7 +41,7 @@
     }
   },
   "dependencies": {
-   "electron-squirrel-startup": "^1.0.0",
+    "electron-squirrel-startup": "^1.0.0",
     "uuid": "^8.3.2"
   },
   "devDependencies": {

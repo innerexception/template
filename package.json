@@ -7,8 +7,7 @@
     "@reduxjs/toolkit": "^1.9.7",
     "astar-typescript": "^1.2.7",
     "electron": "^27.0.3",
-    "peerjs": "^1.5.1",
-    "phaser": "^3.60.0",
+    "phaser": "^3.86.0",
     "rc-tooltip": "^5.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -38,11 +37,7 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.config.js",
     "build": "webpack --config webpack.prod.config.js",
-    "build:bin": "webpack --config webpack.bin.config.js",
-    "deploy:prod": "firebase login && firebase use 'prod' && npm run build-prod && firebase deploy --only hosting:prod",
-    "deploy": "firebase login && firebase use 'dev' && npm run build-stage && firebase deploy --only hosting:dev",
-    "build-prod": "npm run build",
-    "purge": "rm -rf node_modules yarn.lock; yarn"
+    "build:bin": "webpack --config webpack.bin.config.js"
   },
   "browserslist": {
     "production": [
